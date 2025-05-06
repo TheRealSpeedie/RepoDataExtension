@@ -1,0 +1,21 @@
+{
+    "name": "Repo Data Fetcher",
+    "description": "I fetch repo data from GitHub",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "RDF.jpg"
+    },
+    "permissions": [
+      "scripting",
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://github.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
