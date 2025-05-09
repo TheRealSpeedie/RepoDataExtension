@@ -1,11 +1,11 @@
 {
     "name": "Repo Data Fetcher",
-    "description": "I fetch repo data from GitHub",
+    "description": "Fetches data from a GitHub repository using the API. Choose attributes via dropdown and download them in a structured format.",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
       "default_popup": "popup.html",
-      "default_icon": "RDF.jpg"
+      "default_icon": "logo.png"
     },
     "permissions": [
       "scripting",

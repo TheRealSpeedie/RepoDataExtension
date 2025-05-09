@@ -6,9 +6,12 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="title">Repo Data Fetcher</div>
+    <div class="title">Repo Data Fetcher <div class="logo_box"><img src="logo_36.png" alt="" class="logo_title"></div></div>
     <hr>
-    <button id="fetchBtn">Daten holen</button>
+    <div class="container">
+      <button id="fetchBtn">Fetch Data</button>
+      <button id="copyBtn" title="Copy to clipboard">📋</button>
+    </div>
     <select id="dropdown" style="display:none;"></select>
     <pre id="valueDisplay"></pre>
     <button id="downloadBtn" style="display:none;">Download JSON</button>
