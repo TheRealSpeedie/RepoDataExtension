@@ -1,8 +1,8 @@
-🔍 Repo Data Fetcher – Simple, Smart & Efficient
+# 🔍 Repo Data Fetcher – Simple, Smart & Efficient
 Fetch and explore data directly from any public GitHub repository.
 This Chrome extension lets you interact with GitHub's API in a clean, user-friendly interface — no coding required.
 
-🚀 Features
+## 🚀 Features
 - Connects to any public GitHub repository
 - Reads real-time data using GitHub's official API
 - Displays all available attributes (e.g., name, description, stars, forks, dates, links)
@@ -12,20 +12,20 @@ This Chrome extension lets you interact with GitHub's API in a clean, user-frien
 - Easily copy any displayed data to your clipboard
 - Download the full dataset as a clean, structured JSON file
 
-💡 Use Cases
+## 💡 Use Cases
 - Developers exploring open-source projects
 - Students analyzing repositories for learning or research
 - Project managers monitoring specific metadata like contributors or updates
 - Anyone who wants a quick way to peek into a GitHub repo without digging through pages
 
-🛠️ How It Works
+## 🛠️ How It Works
 - Click the "Fetch Data" button.
 - The extension uses the GitHub API to retrieve metadata.
 - A dropdown appears, allowing you to select and inspect specific attributes.
 - The value is cleaned, formatted, and shown clearly — links are clickable, dates are localized.
 - You can copy the displayed value or download the full JSON with one click.
 
-⚙️ Technical Details
+## ⚙️ Technical Details
 - Built using vanilla JavaScript, HTML, and CSS
 - Uses the official GitHub REST API
 - Date formatting and clipboard functionality handled natively
